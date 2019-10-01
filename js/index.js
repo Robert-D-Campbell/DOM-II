@@ -57,6 +57,7 @@ let container = document.querySelector(".home");
 window.addEventListener("wheel", () => {
   container.style.backgroundColor = "black";
   container.style.color = "grey";
+  container.style.transition = "2s";
 });
 //! container flip colors (wheel)(7)
 // change picture (mousedown, mouseup)(9)
